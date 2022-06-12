@@ -25,6 +25,9 @@
                     </span>
                 </h2>
                 <p class="fs-6 mb-5 text-center">Klik obat untuk detail lebih banyak</p>
+            @else
+                <h2 class="text-danger text-center mt-3 fw-bolder">Semua Obat</h2>
+                <p class="fs-6 mb-5 text-center">Klik obat untuk detail lebih banyak</p>
             @endif
             @else
                 <h2 class="text-danger text-center mt-3 fw-bolder">Semua Obat</h2>
